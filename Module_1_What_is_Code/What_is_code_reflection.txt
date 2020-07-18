@@ -1,0 +1,74 @@
+What is Code Reflection, by Shafee Ahmed
+
+-- In your own words, what is a computer really doing whenever you type a letter on a keyboard (150 words max)
+
+Before even pressing any key on the keyboard, a computer is waiting for a signal from the keyboard, just as the keyboard awaits a signal from the user. After you hit a key, it sends a scancode to the computer. Then, it goes through a few processes pulling the font image of that key from its memory, which is made up of lines and circles. Which then renders into pixels and sends it to the part of the computer memory which manages the screen, giving us the opportunity to see the letter on our screen.
+
+-- In your own words, how do computers use input and output to create experiences (250 words max) 
+
+Computers are basically very good at doing things in repetitions at massive scale. This just means that for me, I can write two plus two on a piece of paper and it would take me five seconds to write that out and solve it. However, a computer can do that AND a billion other arithmetic calculations in two seconds.
+
+In that sense, a computer can help us by taking whatever input we give it, go through a billion processes, and give us the output with no thanks needed. Because of that we can get Snapchat notifications. Something simple like an elevator button takes us places. To us, it seems like such a simple input and output press a button and go up. But behind the scenes, there is a software somewhere processing tons of calculations in zeroes and ones. Even games like Minecraft are so simple to look at. Just blocks here and there. Kids young as four can master the game, yet behind the scenes there are a million of lines of code that developed it. On top of that, doing things inside the game are also code, hundreds of lines of code could have gone into inputting eating a zombie leg in Minecraft. It’s all imperceptible to the human eye, but it’s being done.
+
+In essence, computers are capable of processing calculations faster and more efficiently than human beings, which is why it is highly opportune for rich experiences.
+
+
+-- Explain why software products are essentially “infinitely reproducible nothings.” (150 words max) 
+
+
+Software, by its nature, is not tangible. It’s abstract. It’s all just a bunch of numbers working together to do something, it's 'nothings'. 
+
+And software is infinitely reproducible.
+
+If something is infinitely reproducible, it means it can be made over and over again, perhaps in a different fashion or taste, but essentially reproduced. For example, let’s take a look at a Microsoft Word. In order to use it, you have to purchase it. $100, and you get the whole set. Done deal.
+
+That is until Google Docs shows up and now people have a free alternative. The same thing you can do on Word you can do on Docs--reproducible. That is... until something else comes up in the future. That’s the concept of an infinitely reproducible nothing.
+
+
+-- Explain in your own words how code becomes software. (150 words max)
+
+To put it simply, code itself isn't going to do by itself. For example, you can buy tomato sauce and linguini, but by itself it's not going to cook up pasta. You have to utlize these materials through instructions, and in our minds we probably don't need a thorough guide on how to cook pasta, but we still subconsiously follow instructions in our mind, such as boiling the linguini, not boiling the pasta sauce. Same thing for code. By itself, it's just there and not going to do anything, unless we place the code in a certain way for it to function as a software. Though for code, we usually can't do a lot of things subconsiously and need to work up a pseudocode to visualize the instructions.
+
+
+-- Explain “algorithms” in your own words. (150 words max)
+
+An algorithm is a reusable sequence of steps to arrive at a solution quicker and more efficiently. In a computer program, an organized set of code can help us to arrive at finding a quadratic equation faster than if we were to do it manually. Or an algorithm that shows you products when you search something on Amazon, e.g., why is this product in the first page of Relevance It has an algorithm that placed it there.
+
+Algorithms also exist extrinsically in high-level forms, such as a cooking recipe. A morning routine can also be an algorithm wake up, brush teeth, coffee, poop, work, come home, eat, sleep. This is a very broad example, but the concept is there a sequence of steps carried out to carry out problems.
+
+
+-- Explain the DRY principle. (100 words max)
+
+Adding to what I mentioned about algorithms, the DRY principle stands for Don’t Repeat Yourself. Algorithms basically take away all the repetitiveness of writing the same code more than once. For instance, if you want an algorithm to give you the length of a word, instead of making the code only find one word specifically, you can set an empty array in which the user can input their own words - which adds endless reusability.
+
+
+-- In your own words, what is object-oriented programming (100 words max)
+
+Object oriented programming is simply variables (properties) and functions (methods) encaspulated inside an a 'box'-- this box being the object. For purposes of carrying out a task, such as entering a new customer's information into our database, we can simply store that customer's data with our object.
+
+-- In your own words explain data and how it relates to code. (100 Words max)
+
+Data, in terms of technology, is bits of information. Coders use data to make their apps substantial. For instance, Spotify uses data files from record labels to code a software that lets customers stream music. These music files are bits of information, data, that can be changed, used, and deleted.
+
+
+-- What is a framework (150 words max)
+
+Frameworks are prebuilt functions and classes, a bundle of code that can be used to make programs without having to reinvent the wheel. For instance, if I wanted to create a web application I might want to use the Django framework--I don't have to code my way into the serverside modules all the time, because Django has everything included and does all that for me.
+
+-- What is debugging (150 words max)
+
+Debugging is to find that bug in your code, and get rid of it. The bug is not a literal bug; it's something standing in the way of your program making it not work. Programmers are expected to have that expectation that things won't work. So they will try to find the best approach to debugging their code. Most of a programmers life will be spent tryiing to figure out what went wrong.
+
+-- Now, with more of an understanding of what code is, why do you want to learn how to code
+(500 words max)
+
+In a world where coding is becoming the norm everywhere, coding is the way forward. There are several reasons why I want to learn how to code, and why I’m in this Fellowship.
+
+Firstly, I want to say that intentions are everything. I think it was Nietzsche who said something along the lines of ‘he who has a why, can bear almost any how’. There are many reasons why people learn to code these days. My ‘why’—my intention is to learn how to code to first and foremost to help the world in a lingering way. I can use my skills to better raise awareness for things that matter. Even if it’s simple things like creating a website for a church or mosque, or making a logo for an entrepreneur. Little things go long ways, and I want to help be a part of that push.
+
+I’ve done a lot of useless things in the past. Regrets piled up. I spent time where time shouldn’t have been spent. I made decisions that altered my future—which is to say my present—greatly. But I accept my shaky past because I know I don’t have to let it define me. I can choose to be better. That’s why I’m learning to code. I’ll have a way to spend time doing something useful, finding like-minded people and friends to work with, and use my creativity. What could be better?
+
+Lastly, I want to mention that coding and programming are just trades like any other. Producing infinitely reproducible nothings is a job. Of course, hobbyists are out there that code for pleasure and not work, just like middle-aged dads who build birdhouses for a hobby and not commissions, but when you get down to it, the whole business world uses code nowadays. And although, I don’t look down on any other trades, coding just happens to be the trade I want to delve into. I see myself doing it, I see myself designing websites and marketing them and talking to clients. When I learned HTML and CSS by myself, I was getting annoyed why the website wasn’t looking the way I wanted. I entered a trance-like state of concentrating so much that hours had passed by without me realizing it. But at the end of it, I felt so accomplished because I started with a barebones HTML website, to a fully working landing page. I’m sure I’ll enter this concentration-mode again if I pick up JavaScript too, which I’m expecting to be harder and more challenging.
+
+It’s my hope that I can use my skills of trade to help the world one way or another. Something that’ll linger and continue producing good, even after I die. It brings me great joy to know that I can change people’s lives for the better just through code.
+
