@@ -1,4 +1,4 @@
-What is Code Reflection, by Shafee Ahmed
+What is Code Reflection, by Shafee
 
 -- In your own words, what is a computer really doing whenever you type a letter on a keyboard (150 words max)
 
