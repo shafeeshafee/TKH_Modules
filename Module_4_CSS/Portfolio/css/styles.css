@@ -27,22 +27,57 @@ body {
     padding-top: 4rem;
     display: grid;
     justify-items: center;
+    background-image: url(../images/body.jpg);
+    background-size: contain;
+}
+
+a {
+    color: white;
+    width: 100px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(35, 91, 91, 0.22);
 }
 
 /* banner */
 .banner {
     width: 100%;
+    padding-left: 1rem;
     display: flex;
     flex-flow:wrap;
     align-items: center;
     list-style-type: none;
-    background-color: var(--fourth-color);
+    /* background-color: var(--fourth-color); */
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     position: fixed;
     top: 0;
     color: var(--third-color);
     box-shadow: var(--shadow);
 
 }
+
+.banner ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+.banner li{
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
 .title{
     margin-left: 1em;
     text-align: center;
@@ -50,24 +85,7 @@ body {
     color: #fff;
 }
 
-a {
-    color: var(--third-color);
-    width: 100px;
-    text-decoration: none;
-}
 
-a:hover {
-    color: var(--first-color);
-}
-.banner ul{
-    list-style-type: none;
-    display: flex;
-}
-.banner li{
-    list-style-type: none;
-    display: inline;
-    margin: 1rem;
-}
 
 /* about me */
 .about-me{
@@ -92,6 +110,10 @@ a:hover {
     padding: 1em;
 }
 
+.about-me-text p {
+    width: 80%;
+}
+
 /* socials */
 
 .social-media {
@@ -108,6 +130,10 @@ a:hover {
     font-size: .75em;
     margin: .5rem;
     display: inline;
+}
+
+.social-media a {
+    color: #567a78;
 }
 
 /* career */
@@ -137,7 +163,7 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     width: 80vw;
-    padding: 1rem;
+    padding: 2rem;
     margin: .5rem;
     border-radius: 6px;
     background-color: var(--second-color);
@@ -145,23 +171,28 @@ a:hover {
 }
 
 .projects h2 {
-    width: 100%;
-    margin: 1rem;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 3rem;
 }
 
 .project{
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
-    width: 25%;
+    margin: 0 auto;
+    width: 20%;
     box-shadow: var(--shadow);
     color: #fff;
-    background-color: var(--third-color);
+    background-color: rgba(87, 122, 121, 0.55);
     border-radius: 8px;
 }
 
 .project a {
     color: #fff;
+}
+
+.project p {
+
 }
 
 .project:hover {
@@ -194,7 +225,7 @@ input{
     padding: .5rem;
 }
 input[type=submit] {
-    background-color: var(--third-color);
+    background-color: #567a78;
     color: white;
     padding: 10px;
     width: calc(30vw + .5rem);
@@ -223,6 +254,19 @@ input[type=submit]:hover {
     padding: 1rem;
 }
 
+.job h3 a {
+    color: green;
+}
+
+.date {
+    font-size: .7rem;
+    color: gray;
+}
+
+.duties li {
+    font-size: .7rem;
+}
+
 /* education*/
 .education{
     width: 80vw;
@@ -231,6 +275,15 @@ input[type=submit]:hover {
     border-radius: 10px;
     background-color: var(--second-color);
     box-shadow: var(--shadow);
+}
+
+.education h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.education p {
+    font-size: .7rem;
 }
 
 /* footer */
