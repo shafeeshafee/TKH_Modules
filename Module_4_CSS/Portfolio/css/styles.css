@@ -112,6 +112,8 @@ a:hover {
 }
 .about-me-text {
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-me-text p {
@@ -128,6 +130,8 @@ a:hover {
     padding: .3rem;
     list-style-type: none;
     top: 6em;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-media li {
@@ -166,6 +170,7 @@ a:hover {
 .projects{
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
     width: 80vw;
     padding: 2rem;
     margin: .5rem;
@@ -197,6 +202,11 @@ a:hover {
 
 .project p {
 
+}
+
+.project img {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .project:hover {
