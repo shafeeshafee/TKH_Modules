@@ -101,8 +101,6 @@ a:hover {
 .about-me{
     width: 60vw;
     display: flex;
-    text-align: justify;
-    text-justify: inter-word;
     padding: 1em;
     margin: 2rem .5rem;
     border-radius: 6px;
@@ -337,7 +335,7 @@ input[type=submit]:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 1000px) and (min-width: 200px) {
     .about-me {
     display: flex;
     flex-direction: column;
@@ -429,5 +427,9 @@ input[type=submit]:hover {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
   /* mobile responsiveness test */
+>>>>>>> Module4
+=======
+  /* responsive */
 >>>>>>> Module4
