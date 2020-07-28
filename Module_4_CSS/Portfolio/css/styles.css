@@ -44,8 +44,7 @@ a:hover {
 
 /* banner */
 .banner {
-    width: 100%;
-    padding-left: 1rem;
+    width: 100vw;
     display: flex;
     flex-flow:wrap;
     align-items: center;
@@ -63,25 +62,34 @@ a:hover {
     border-bottom: rgba(0,0,0,0.16);
 }
 
+.banner h1 {
+}
+
 .banner ul{
     list-style-type: none;
     display: flex;
-    position: relative;
+
 }
+
 .banner li{
     list-style-type: none;
-    display: inline;
+    display: flex;
+    justify-content: space-around;
     margin: 1rem;
 }
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    margin: 0 auto;
+
   
 }
 
 .title{
-    margin-left: 1em;
+    display: flex;
+    flex-direction: flex-start;
+    margin: 0 auto;
+    padding: 0 3em;
     text-align: center;
     font-size: 0.95em;
     color: #fff;
@@ -91,45 +99,53 @@ a:hover {
 
 /* about me */
 .about-me{
+    width: 60vw;
     display: flex;
-    width: 80vw;
     text-align: justify;
     text-justify: inter-word;
-    padding: 1rem;
+    padding: 1em;
     margin: 2rem .5rem;
     border-radius: 6px;
     background-color: var(--second-color);
     box-shadow: var(--shadow);
 }
-.profile{
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-}
 
-.profile-pic {
-
-}
 .about-me-text {
-    padding: 1em;
+    padding-left: 2em;
     display: flex;
     flex-direction: column;
 }
 
 .about-me-text p {
-    width: 80%;
+    width: 90%;
+}
+
+.profile {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic img {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.profile-pic{ 
+    margin: 0 auto;
 }
 
 /* socials */
 
 .social-media {
     display: flex;
+    justify-content: space-around;
 }
 
 .social-media ul {
     padding: .3rem;
     list-style-type: none;
-    top: 6em;
     display: flex;
     flex-direction: column;
 }
@@ -201,7 +217,7 @@ a:hover {
 }
 
 .project p {
-
+    font-size: 0.6em;
 }
 
 .project img {
@@ -319,3 +335,96 @@ input[type=submit]:hover {
 .footer:hover {
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .about-me {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 9em;
+    padding: 0;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about-me-text {
+    margin-top: -1.6em;
+    padding-left: 1em;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .career {
+    display: flex;
+    flex-direction: column;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .goals {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 60%;
+    margin-bottom: 3rem;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .skills {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 60%;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .projects {
+        font-size: 18px;
+        padding: 3rem 0;
+        margin: 3em auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .project {
+        width: 60%;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .jobs {
+        margin-top: 9em;
+        padding: 1em;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .job {
+        text-align: text-center;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .duties li {
+        font-size: calc(.8em + .8vw);
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .education {
+        padding: 1em;
+        }
+  }
+
+  /* mobile responsiveness test */
