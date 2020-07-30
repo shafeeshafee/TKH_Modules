@@ -28,7 +28,8 @@ body {
     display: grid;
     justify-items: center;
     background-image: url(../images/body.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
