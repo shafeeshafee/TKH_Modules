@@ -6,6 +6,7 @@ console.log(arrS);
 
 for (i = 0; i < arrS.length; i++) {
   arrS[i] = arrS[i].replace('s', '$');
+  arrS[i] = arrS[i].replace('S', '$');
   arrS.toString()
 }
 
