@@ -1,3 +1,5 @@
+// CODEPEN - https://codepen.io/shafeetkh/pen/RwabYoy?editors=0012
+
 const grade = parseInt(prompt("Enter the number grade you received: "));
 
 switch (true) {

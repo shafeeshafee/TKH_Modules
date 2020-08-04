@@ -1,3 +1,10 @@
+// CODEPEN DISPLAYS NUMBERS AS 'NaN' - THIS IS A BUG WITH CODEPEN 
+// BECAUSE OTHER JS CONSOLES + DEFAULT BROWSER CONSOLE WORKS WITH THIS CODE AND DISPLAYS THE NUMBERS
+// FOR THIS REASON, I SUPPLEMENTED A REPL.IT LINK BELOW
+
+// LIVE CODE LINK - https://repl.it/@shafee/TKHassignment1
+
+
 // step 1 - create prompts for financial data
 let weeklyIncome = parseInt(prompt("How much is your weekly income?"));
 let food = parseInt(prompt("How much do you pay for food weekly?"));
@@ -8,7 +15,7 @@ let goal = parseInt(prompt("How much would you like to save in a year?"));
 
 // step 2 - how much to save a week
 let weeklySave = goal / 52;
-console.log("With your weekly salary, you would have to save $" + weeklySave.toFixed(2) + " every week");
+console.log("With your weekly salary, you would have to save $" + weeklySave.toFixed(2) + " every week to cover your goal.");
 
 // step 3 - total weekly costs
 let weekTotal = (housing / 52) + food + transportation + otherCost;
