@@ -4,37 +4,30 @@ const grade = parseInt(prompt("Enter the number grade you received: "));
 
 switch (true) {
   case grade > 95:
-    letterGrade = "A+";
-    console.log(letterGrade);
+    console.log("A+");
     break;
   case grade > 88:
-    letterGrade = "A";
-    console.log(letterGrade);
+    console.log("A");
     break;
   case grade > 84:
-    letterGrade = "B+";
-    console.log(letterGrade);
+    console.log("B+");
     break;
   case grade > 76:
-    letterGrade = "C+";
-    console.log(letterGrade);
+    console.log("C+");
     break;
   case grade > 70:
-    letterGrade = "C";
-    console.log(letterGrade);
+    console.log("C");
     break;
   case grade > 67:
     letterGrade = "D+";
-    console.log(letterGrade);
+    console.log("D+");
     break;
   case grade > 64:
-   letterGrade = "D";
-    console.log(letterGrade);
+    console.log("D");
     break;
   case grade < 64:
-    letterGrade = "F";
-    console.log(letterGrade);
+    console.log("F");
     break;
   default:
-    console.log("Enter a number grade.");
+    console.log("Invalid grade.");
 }
