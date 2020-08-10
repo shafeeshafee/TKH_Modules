@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 * {
 	margin: 0;
@@ -126,9 +127,17 @@ section {
 }
 
 .restart button {
-	background: white;
-	border-radius: 120%;
-	font-family: arial;
+	background: none;
+	color: white;
+	font-family: "Bungee", cursive;
+	font-size: 20px;
+	width: 20%;
+	height: 50px;
+}
+
+.restart button:hover {
+	background-color: white;
+	color: black;
 }
 
 div.fadeOut {
