@@ -120,6 +120,17 @@ section {
 	transform: rotateY(180deg);
 }
 
+.restart {
+	margin-top: 3em;
+	text-align: center;
+}
+
+.restart button {
+	background: white;
+	border-radius: 120%;
+	font-family: arial;
+}
+
 div.fadeOut {
 	opacity: 0;
 	pointer-events: none;

@@ -113,5 +113,11 @@ const game = () => {
 	playMatch();
 };
 
+// restart function reloads the page
+function refreshed() {
+	const refreshPage = document.querySelector("#restart");
+	refreshPage.addEventListener("click", location.reload());
+}
+
 // start game
 game();
