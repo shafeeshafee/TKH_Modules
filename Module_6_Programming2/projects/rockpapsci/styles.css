@@ -22,10 +22,11 @@ section {
 	font-family: "Bungee Outline", cursive;
 	font-size: 1.5em;
 	background: yellow;
-	padding: 1em;
 	text-align: center;
 	width: 50%;
 	margin: 0 auto;
+	border: 0.5rem outset rgb(230, 207, 0);
+	box-shadow: 0 0 0 2rem rgba(172, 169, 15, 0.1);
 }
 
 .head h3 {
