@@ -18,7 +18,7 @@ console.log("With your weekly salary, you would have to save $" + saveGoal.toFix
 
 // step 3 - total weekly costs
 let weekTotal = housing / 52 + food + transportation + otherCost;
-console.log("This much much is spent in a week: $" + weekTotal.toFixed(2));
+console.log("Approximately, this is how much is spent in a week: $" + weekTotal.toFixed(2));
 let amountLeft = weeklyIncome - weekTotal;
 console.log("End of the week, you're left with: $" + amountLeft.toFixed(2));
 
