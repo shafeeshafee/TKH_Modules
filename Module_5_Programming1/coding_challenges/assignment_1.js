@@ -14,11 +14,7 @@ let goal = parseInt(prompt("How much would you like to save in a year?"));
 
 // step 2 - how much to save a week
 let saveGoal = goal / 52;
-console.log(
-	"With your weekly salary, you would have to save $" +
-		saveGoal.toFixed(2) +
-		" every week to cover your goal."
-);
+console.log("With your weekly salary, you would have to save $" + saveGoal.toFixed(2) + " every week to cover your goal.");
 
 // step 3 - total weekly costs
 let weekTotal = housing / 52 + food + transportation + otherCost;
@@ -30,8 +26,5 @@ console.log("End of the week, you're left with: $" + amountLeft.toFixed(2));
 if (amountLeft > saveGoal) {
 	console.log("You're on track!");
 } else {
-	console.log(
-		"You're not on track. Currently, you need to save this much weekly: $" +
-			(saveGoal.toFixed(2) - amountLeft.toFixed(2))
-	);
+	console.log("You're not on track. Currently, you need to save this much weekly: $" + (saveGoal.toFixed(2) - amountLeft.toFixed(2)));
 }
