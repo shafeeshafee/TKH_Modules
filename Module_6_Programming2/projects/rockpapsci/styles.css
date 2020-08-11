@@ -90,11 +90,13 @@ section {
 	border-radius: 3px;
 	cursor: pointer;
 	outline: none;
+	margin: 0 30px;
 }
 
 .intro button:active,
 .match button:active {
 	border: 5px solid white;
+	margin: 0 30px;
 }
 
 .match {
