@@ -7,14 +7,14 @@ const Car = {
 		return this.sound;
 	},
 	set noise(value) {
-		return (this.sound = value);
+		this.sound = value;
 	},
 };
 
 // changing car noise to VROOM VROOOM
-console.log(Car.noise);
+console.log(`getter car noise is: ${Car.noise}`);
 Car.noise = "VROOM VROOOMMMM";
-console.log(Car.noise);
+console.log(`setter car noise is: ${Car.noise}`);
 
 const Team = {
 	name: "The TKH Tigers",
@@ -26,14 +26,14 @@ const Team = {
 		return this.slogan;
 	},
 	set shoutOut(hustle) {
-		return (this.slogan = hustle);
+		this.slogan = hustle;
 	},
 };
 
 // changing slogan to HUSTLE!
-console.log(Team.shoutOut);
+console.log(`getter slogan is: + ${Team.shoutOut}`);
 Team.shoutOut = "HUSTLE!";
-console.log(Team.shoutOut);
+console.log(`setter slogan is: + ${Team.shoutOut}`);
 
 const Animal = {
 	scientificName: "Ailurus fulgens",
@@ -45,11 +45,11 @@ const Animal = {
 		return this.status;
 	},
 	set situation(state) {
-		return (this.status = state);
+		this.status = state;
 	},
 };
 
 // changing status to Vulnerable
-console.log(Animal.situation);
+console.log(`getter animal status is: ${Animal.situation}`);
 Animal.status = "Vulnerable";
-console.log(Animal.situation);
+console.log(`setter animal status is: ${Animal.situation}`);
