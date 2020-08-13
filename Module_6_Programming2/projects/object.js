@@ -31,9 +31,9 @@ const Team = {
 };
 
 // changing slogan to HUSTLE!
-console.log(`getter slogan is: + ${Team.shoutOut}`);
+console.log(`getter slogan is: ${Team.shoutOut}`);
 Team.shoutOut = "HUSTLE!";
-console.log(`setter slogan is: + ${Team.shoutOut}`);
+console.log(`setter slogan is: ${Team.shoutOut}`);
 
 const Animal = {
 	scientificName: "Ailurus fulgens",
