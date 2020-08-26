@@ -3,7 +3,7 @@
 Moriko (森子) ― from Japanese 森 *mori* meaning "forest" and 子 *ko* meaning "child"
 
 # Module 7 - The Moriko Project
-## A companion app to help create meaningful experiences
+## A companion app for solitude and personal growth
 
 ### Project Directory Structure:
 
